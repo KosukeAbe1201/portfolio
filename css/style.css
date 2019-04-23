@@ -59,7 +59,7 @@ ul, li {
 }
 
 #contents {
-  padding: 100px 0;
+  padding: 300px 0;
 }
 
 /*--------------------------------
@@ -76,7 +76,7 @@ ul, li {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  height: 750px;
+  height: 850px;
 }
 
 #header .logo {
@@ -91,6 +91,7 @@ ul, li {
   opacity:0.8;
   line-height: 1.5;
   letter-spacing: 8px;
+  cursor: pointer;
 }
 
 #header .logo-desc {
@@ -103,6 +104,7 @@ ul, li {
   text-align: center;
   margin-top: 5px;
   letter-spacing: 2px;
+  cursor: pointer;
 }
 
 /*--------------------------------
@@ -157,25 +159,21 @@ ul, li {
 　Section
 ---------------------------------*/
 .title-border {
-display: flex;
+
 align-items: center;
-font-size: 30px;
+font-size: 20px;
+cursor: pointer;
 }
-.title-border:before,
-.title-border:after {
-border-top: 1px solid;
-content: "";
-flex-grow: 1;
-}
-.title-border:before {
-margin-right: 1rem;
-}
-.title-border:after {
-margin-left: 1rem;
+
+.title-border2 {
+
+align-items: center;
+font-size: 40px;
+cursor: pointer;
 }
 
 .section .inner {
-  padding: 80px 10px;
+  padding: 0px 0px;
 }
 
 .section .section-title-block {
@@ -297,7 +295,7 @@ margin-left: 1rem;
 }
 
 #skill .card {
-  flex-basis: 46%;
+  flex-basis: 12%;
   margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,7 +324,7 @@ margin-left: 1rem;
 }
 
 #skill .skill-desc-title {
-  margin-bottom: 3px;
+  margin-bottom: 20px;
 }
 
 #skill .rate {
@@ -423,7 +421,7 @@ margin-left: 1rem;
 ---------------------------------*/
 
 #footer {
-  background-color: #333;
+  background-color: #F5F5F5;
 }
 
 #footer .inner {
@@ -454,7 +452,7 @@ margin-left: 1rem;
 
 #footer .copyright {
   font-size: 10px;
-  color: #8c8c8c;
+  color: gray;
   text-align: center;
 }
 
