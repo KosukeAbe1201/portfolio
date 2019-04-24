@@ -62,6 +62,12 @@ ul, li {
   padding: 300px 0;
 }
 
+img.back-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
 /*--------------------------------
 　ヘッダー
 ---------------------------------*/
@@ -465,8 +471,13 @@ cursor: pointer;
     line-height: 1.7;
   }
   .title-border {
+  font-size: 15px;
+  }
+
+  .title-border2 {
   font-size: 20px;
   }
+
   #header {
     background: url("../img/background/background_rsp.jpg") no-repeat;
     background-size: contain;
@@ -491,7 +502,7 @@ cursor: pointer;
     opacity: 1;
   }
   #contents {
-    padding: 40px 0;
+    padding: 150px 0;
   }
   .section .inner {
     padding: 30px 15px;
@@ -528,7 +539,8 @@ cursor: pointer;
     width: 100%;
   }
   #skill .card {
-    flex-basis: 100%;
+    padding-left: 15px;
+    flex-basis: 20%;
   }
   #skill .skill-icon {
     flex-basis: 45px;
